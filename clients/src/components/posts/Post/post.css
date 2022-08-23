@@ -1,0 +1,58 @@
+.post{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    height: fit-content;
+    border-radius: 6px;
+    background-color: white;
+}
+.post-up{
+    position: relative;
+}
+.post-up img{
+    width: 22rem;
+    height: 10rem;
+}
+.creator{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+.icon{
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.post-down{
+    padding: 0.5rem 0.75rem;
+  
+
+}
+.post-down h2{
+    margin: 1rem;
+}
+.icon-pos{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 100;
+}
+.icon-blue{
+    font-size: 1.5rem;
+    color:blue
+}
+.social-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.like-div , .delete-div{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+@media only screen and (max-width: 500px) {
+    .post-up img{
+       width: 15rem;
+       
+    }
+ }
